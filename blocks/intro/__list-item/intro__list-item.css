@@ -1,9 +1,9 @@
-.intro__list_item {
+.intro__list-item {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
 }
 
-.intro__list_item-hightlighted {
+.intro__list-item_hightlighted {
   font-weight: 700;
 }
