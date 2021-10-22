@@ -5,11 +5,15 @@
   cursor: pointer;
   color: #fff;
   margin: 0;
-  /* padding-left: 18px; */
+  text-decoration: none;
 }
 
-.header__lang-link:last-of-type {
-  text-decoration: none;
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+.header__lang-link_active {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 767px) {

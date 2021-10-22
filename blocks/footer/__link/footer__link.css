@@ -4,3 +4,7 @@
   padding-right: 18px;
   cursor: pointer;
 }
+
+.footer__link:hover {
+  opacity: 0.8;
+}

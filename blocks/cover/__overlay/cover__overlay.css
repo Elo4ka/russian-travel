@@ -8,9 +8,8 @@
   align-items: center;
   text-decoration: none;
   background-image: url(../../../images/cover-trains.jpg);
-  /* object-position: center; */
   background-size: cover;
-  /* background-position: top; */
+  background-position: center;
   margin: 0 auto;
 }
 
@@ -26,7 +25,7 @@
   background-color: rgba(42, 44, 47, 0.8);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1040px) {
   .cover__overlay {
     max-width: 1024px;
     min-height: 640px;
