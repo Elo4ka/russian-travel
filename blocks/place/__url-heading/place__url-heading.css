@@ -3,6 +3,9 @@
   line-height: 24px;
   font-weight: 400;
   text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 2px;
+  color: #AAAAAA;           
 }
 
 @media screen and (max-width: 767px) {

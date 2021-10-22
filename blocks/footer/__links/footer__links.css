@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 680px) {
   .footer__links {
     display: block;
   }

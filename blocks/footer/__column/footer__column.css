@@ -1,0 +1,25 @@
+.footer__column {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  padding: 0 48px 0 48px;
+}
+
+@media screen and (max-width: 923px) {
+  .footer__column {
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer__column {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .footer__column {
+    line-height: 14px;
+  }
+}

@@ -8,23 +8,22 @@
   align-items: center;
   text-decoration: none;
   background-image: url(../../../images/cover-trains.jpg);
-  object-position: center;
+  /* object-position: center; */
   background-size: cover;
-  background-position: top;
+  /* background-position: top; */
   margin: 0 auto;
 }
 
-.cover__overlay::before {
+.cover__overlay:before {
   position: absolute;
   content: '';
-  background: rgba(42, 44, 47, 0.9);
+  background-color: rgba(42, 44, 47, 0.3);
   height: 100%;
-  z-index: -1;
+  width: 100%;
 }
 
-.cover__overlay:hover {
-  opacity: 0.3;
-  z-index: -1;
+.cover__overlay:hover:before {
+  background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1023px) {

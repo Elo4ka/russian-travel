@@ -1,11 +1,11 @@
-.footer__columns {
+.footer {
   display: flex;
   margin: 92px 0 0 0;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 525px) {
-  .footer__columns {
+@media screen and (max-width: 680px) {
+  .footer {
     display: block;
     margin: 64px 0 0 16px;
   }
