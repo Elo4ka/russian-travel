@@ -9,6 +9,12 @@
   padding: 28px 0 24px;
 }
 
+@media screen and (max-width: 794px) {
+  .page__container {
+    padding-top: 24px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .page__container {
     padding-top: 16px;

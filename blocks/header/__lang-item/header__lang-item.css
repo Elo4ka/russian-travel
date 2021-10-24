@@ -13,9 +13,18 @@
   margin-right: 48px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 794px) {
   .header__lang-item {
     font-size: 18px;
     line-height: 20px;
+  }
+  .header__lang-item:last-of-type {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .header__lang-item:last-of-type {
+    margin-right: 16px;
   }
 }

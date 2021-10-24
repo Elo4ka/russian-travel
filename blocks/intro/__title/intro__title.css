@@ -6,13 +6,13 @@
   margin: 92px auto 40px 148px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1050px) {
   .intro__title {
     margin: 92px 48px 40px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 794px) {
   .intro__title {
     margin: 88px 24px 40px;
   }

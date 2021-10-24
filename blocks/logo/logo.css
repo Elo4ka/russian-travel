@@ -8,9 +8,16 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 794px) {
+  .logo {
+    margin-left: 24px;
+  }
+}
+
 @media screen and (max-width: 525px) {
   .logo {
     height: 42px;
     width: 142px;
+    margin-left: 16px;
   }
 }
