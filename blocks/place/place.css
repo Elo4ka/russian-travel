@@ -31,7 +31,7 @@
   .place {
     margin-top: 50px;
     grid-template-columns: 1fr;
-    grid-gap: 32px 12px;
+    grid-gap: 32px;
     grid-template-areas:
       'title'
       'url'

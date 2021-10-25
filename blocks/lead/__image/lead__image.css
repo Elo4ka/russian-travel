@@ -4,6 +4,7 @@
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  object-fit: cover;
   padding-top: 64px;
 }
 
@@ -21,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 890px) {
   .lead__image {
     max-height: 530px;
     max-width: 768px;
@@ -29,15 +30,15 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 785px) {
   .lead__image {
     max-height: 480px;
-    max-width: 728px;
+    max-width: 768px;
     
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 765px) {
   .lead__image {
     max-height: 390px;
     max-width: 690px;
